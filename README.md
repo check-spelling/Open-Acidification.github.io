@@ -14,6 +14,7 @@ Over the next century ocean water is predicted to become 2.5 times as acidic. It
 
 
 
-You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project's website is maintained using a single [Markdown file](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md).
+
 
 
