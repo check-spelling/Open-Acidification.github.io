@@ -1,9 +1,6 @@
 ## Welcome to Open Acidification Project
 
-You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-
-### Introduction
+As mankind adds substantial additional carbond dioxide to the atmosphereas much as one third of that carbon dioxide is absorbed is absorbed by the ocean.  This CO<sub>2</sub>.
 
 ### Project List
 
@@ -14,5 +11,8 @@ You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Ac
   * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 3D models to print housing for pH-stat unit
   * [arduino](https://github.com/Open-Acidification/Open_Acidification_pH-stat_arduino) - The arduino code for the Open Acidification pH-stat unit
 
+
+
+You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 
