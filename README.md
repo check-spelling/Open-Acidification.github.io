@@ -8,10 +8,10 @@ You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Ac
 ### Project List
 
 * [Open Acidification Server](https://github.com/Open-Acidification/Open_Acidification_Server) - Software for the Open Acidification central web server which interfaces with the individual units.
-* [Alkalinity Titrator](https://github.com/Open-Acidification/alkalinity-titrator) - Process for determining total alkalinity in sea water using an open-cell titration
-* pH-Stat
+* [Alkalinity Titrator](https://github.com/Open-Acidification/alkalinity-titrator) - Apparatus to determine total alkalinity in sea water using an open-cell titration
+* pH-Stat: Aquarium control unit for regulate tank pH through CO2 addition and temperature
   * [KiCad](https://github.com/Open-Acidification/Open_Acidification_pH-stat_KiCad) - KiCad files for pcb design for Open Acidification pH-stat unit
-  * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 
+  * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 3D models to print housing for pH-stat unit
   * [arduino](https://github.com/Open-Acidification/Open_Acidification_pH-stat_arduino) - The arduino code for the Open Acidification pH-stat unit
 
 
