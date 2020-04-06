@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to Open Acidification Project
 
 You can use the [editor on GitHub](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Project List
 
-```markdown
-Syntax highlighted code block
+* [Open Acidification Server](https://github.com/Open-Acidification/Open_Acidification_Server) - Software for the Open Acidification central web server which interfaces with the individual units.
+* [Alkalinity Titrator](https://github.com/Open-Acidification/alkalinity-titrator) - Process for determining total alkalinity in sea water using an open-cell titration
+* pH-Stat
+  * [KiCad](https://github.com/Open-Acidification/Open_Acidification_pH-stat_KiCad) - KiCad files for pcb design for Open Acidification pH-stat unit
+  * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 
+  * [arduino](https://github.com/Open-Acidification/Open_Acidification_pH-stat_arduino) - The arduino code for the Open Acidification pH-stat unit
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Open-Acidification/Open-Acidification.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
