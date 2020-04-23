@@ -12,9 +12,6 @@ Over the next century ocean water is predicted to become 2.5 times more acidic. 
   * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 3D models to print housing for pH-stat unit
   * [arduino](https://github.com/Open-Acidification/Open_Acidification_pH-stat_arduino) - The arduino code for the Open Acidification pH-stat unit
 
-
-
-This project's website is maintained using a single [Markdown file](https://github.com/Open-Acidification/Open-Acidification.github.io/edit/master/README.md).
-
+* [Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Documentation of all subprojects
 
 
