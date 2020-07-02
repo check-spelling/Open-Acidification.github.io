@@ -14,4 +14,8 @@ Over the next century ocean water is predicted to become 2.5 times more acidic. 
 
 * [Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Documentation of all subprojects
 
+### How to Get Involved
 
+Hi there! Thanks for showing interest in our project.
+You can get involved by contributing to one of the projects listed.
+Also, join us on [slack](https://join.slack.com/t/openacidification/signup) to connect with the project.
