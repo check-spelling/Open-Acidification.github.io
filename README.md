@@ -13,10 +13,11 @@ Unfortunately, the equipment needed to perform ocean acidification research is e
 
 * [Open Acidification Server](https://github.com/Open-Acidification/Open_Acidification_Server) - Software for the Open Acidification central web server which interfaces with the individual units.
 * [Alkalinity Titrator](https://github.com/Open-Acidification/alkalinity-titrator) - Apparatus to determine total alkalinity in sea water using an open-cell titration
-* pH-Stat - Aquarium control unit for regulate tank pH through CO<sub>2</sub> addition and temperature
-  * [KiCad](https://github.com/Open-Acidification/Open_Acidification_pH-stat_KiCad) - KiCad files for pcb design for Open Acidification pH-stat unit
-  * [Housing](https://github.com/Open-Acidification/Open_Acidification_pH-stat_Housing) - 3D models to print housing for pH-stat unit
-  * [arduino](https://github.com/Open-Acidification/Open_Acidification_pH-stat_arduino) - The arduino code for the Open Acidification pH-stat unit
+* Tank Controller - Aquarium control unit for regulate tank pH through CO<sub>2</sub> addition and temperature
+  * [KiCad](https://github.com/Open-Acidification/TankController-KiCad) - KiCad files for pcb design for Open Acidification pH-stat unit
+  * [Housing](https://github.com/Open-Acidification/TankController-Housing) - 3D models to print housing for pH-stat unit
+  * [Controller Code](https://github.com/Open-Acidification/TankController) - The arduino code for the tank controller unit
+  * [Controller Library](https://github.com/Open-Acidification/TankControllerLib) - The arduino code for the tank controller library
 
 * [Open Acidification Project](https://github.com/Open-Acidification/Open-Acidification.github.io) - Documentation of all subprojects
 
