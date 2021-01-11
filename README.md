@@ -9,6 +9,11 @@ Because the oceans contain over 99% of the habitable space on earth, and much of
 Unfortunately, the equipment needed to perform ocean acidification research is expensive, restricting this work to a relatively few well-funded labs.
 ***The goal of the Open Acidification Project is to create open-source, inexpensive tools to conduct ocean acidification research and ultimately greatly increase the amount of quality ocean acidification research that can be accomplished.***
 
+### Recent News
+
+* Check out this video from University of Alaska Southeast highlighting some research that is being done with the Open Acidification pH-Stat units (Tank Controllers). Nice to see these things out in the wild...  https://fb.watch/26HQgnsdgC/  
+
+
 ### Project List
 
 * [Open Acidification Server](https://github.com/Open-Acidification/Open_Acidification_Server) - Software for the Open Acidification central web server which interfaces with the individual units.
