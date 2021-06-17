@@ -18,3 +18,8 @@ If you like Open Acidification Project and want to support our mission, please c
 [Donate Now](https://www.wallawalla.edu/about-wwu/general-information/advancement/giving-method/) and write in "Open Acidification Project" as the fund name.
 
 (Donations are made through our fiscal sponsor, Walla Walla University, which is a 501(c)(3) non-profit charity in the United States; as such, donations to Walla Walla University are tax-deductible as allowed by law. As with any donation, you should consult with your personal tax adviser or the IRS about your particular tax situation.)
+
+## Helpful links for editing documentation
+
+* https://mmistakes.github.io/minimal-mistakes/
+* https://jekyllrb.com/

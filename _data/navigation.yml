@@ -3,7 +3,7 @@ main:
   - title: "Documentation"
     url: /docs/00-projects/
   - title: "About"
-    url: /docs/about.html
+    url: /_pages/about.html
 
 # documentation links
 docs:
