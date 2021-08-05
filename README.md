@@ -1,40 +1,36 @@
-## Welcome to the Open Acidification Project
+# Welcome to the Open Acidification Project
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-### How to build website locally
+## How to build website locally
 
 You may want to update ruby gems before running these commands.
 
-```
+```sh
 gem update --system
 ```
 
 Command to install the libraries for building the website.
 
-```
+```sh
 bundle install --path vendor/bundle
 ```
 
 Command to run the website locally.
 
-```
+```sh
 bundle exec jekyll serve
 ```
 
-### Contributions
-
-The initial source code and hardware was created by [Kirt Onthank](https://github.com/KirtOnthank).
-Since then others have contributed to the project, here are a few highlights from recent student lead efforts.
-
-### How to Get Involved
+## How to Get Involved
 
 You can get involved by contributing to one of the projects listed.
 Also, e-mail us at <mailto:openacidificationproject@gmail.com>.
 We will send you a link to join our Microsoft Teams groups that discusses the project.
 
-### Supporting
+## Supporting
 
 If you like Open Acidification Project and want to support our mission, please consider making a donation to support our efforts.
 
@@ -44,10 +40,12 @@ If you like Open Acidification Project and want to support our mission, please c
 
 ## Helpful links for editing documentation
 
-* https://mmistakes.github.io/minimal-mistakes/
-* https://jekyllrb.com/
+* <https://mmistakes.github.io/minimal-mistakes/>
+* <https://jekyllrb.com/>
 
 ## Contributors ✨
+
+The initial source code and hardware was created by [Kirt Onthank](https://github.com/KirtOnthank).
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
