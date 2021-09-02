@@ -2,29 +2,17 @@
 # Purpose: batch image resizer
 # Source: https://guides.wp-bullet.com/batch-resize-images-using-linux-command-line-and-imagemagick/
 # Author: Mike
+# Modified to match projects needs and settings.
 
-# Requires imagemagick
-#
+# Requires imagemagick (commented out install commands)
 # sudo apt-get update
 # sudo apt-get install imagemagick -y
 
-# absolute path to image folder
+# relative repo path to image folder
 FOLDER="assets/images"
 
 # max width
 WIDTH=800
 
-# max height
-#HEIGHT=800
-
-#resize png or jpg to either height or width, keeps proportions using imagemagick
-#find ${FOLDER} -iname '*.jpg' -o -iname '*.png' -exec convert \{} -verbose -resize $WIDTHx$HEIGHT\> \{} \;
-
-#resize png to either height or width, keeps proportions using imagemagick
-#find ${FOLDER} -iname '*.png' -exec convert \{} -verbose -resize $WIDTHx$HEIGHT\> \{} \;
-
-#resize jpg only to either height or width, keeps proportions using imagemagick
+# resize jpg only to width, keeps proportions using imagemagick
 find ${FOLDER} -iname '*.jpg' -exec convert \{} -verbose -resize $WIDTH\> \{} \;
-
-# alternative
-#mogrify -path ${FOLDER} -resize ${WIDTH}x${HEIGHT}% *.png -verbose
