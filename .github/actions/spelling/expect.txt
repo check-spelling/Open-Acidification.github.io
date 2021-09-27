@@ -16,6 +16,7 @@ Gemfile
 github
 gmail
 Google
+google
 homepage
 href
 htaccess
@@ -25,11 +26,14 @@ ino
 jpg
 json
 Linux
+maxpoint
 mailto
 markdownlint
 Mega
 mega
 Microsoft
+midpoint
+minpoint
 mkd
 mkdn
 mkdown
@@ -49,10 +53,12 @@ pushnut
 README
 Realtime
 refactored
+setpoint
 sitemap
 src
 sudo
 Sukachevin
+tankid
 toml
 url
 usr
