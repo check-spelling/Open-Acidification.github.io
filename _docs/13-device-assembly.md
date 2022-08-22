@@ -112,7 +112,7 @@ Parts and Tools needed:
 Place one of the push nuts into the holes in the corners of housing skirt.  It will likely not be possible to sink the push nut into the hole by pushing alone.
 ![Initial placement of push nut](/assets/images/pushnut_placement.jpg)
 
-Because it is generally not possible to push in the nuts with one's hands, I generally use a bolt to accomplish this.  To to this, hold the nut in place with one hand, turn the skirt over and one of the countersunk holes in either the faceplate or the backplate over the hole in which the push nut has been place. Then place a bolt through through that hole and thread it into the push nut.
+Because it is generally not possible to push in the nuts with one's hands, I generally use a bolt to accomplish this.  To to this, hold the nut in place with one hand, turn the skirt over and one of the countersunk holes in either the faceplate or the backplate over the hole in which the push nut has been place. Then place a bolt through that hole and thread it into the push nut.
 ![Bolt placement to sink push nut into hole](/assets/images/pushnut_screw.jpg)
 ![Bolt threaded through push nut](/assets/images/pushnut_threaded.jpg)
 
