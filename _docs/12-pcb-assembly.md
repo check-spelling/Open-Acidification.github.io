@@ -283,7 +283,7 @@ To attach the board to the PCB, first place the 8-pin male header into the 8-pin
 Next, place the 1-pin male headers into the 1-pin female headers.
 ![1-pin header attachment](/assets/images/pt100_1pin.jpg)
 
-Place each of these mated male/female headers into the PCB on the position marked "PT100 Amp", with the pins for the female headers placed into the PCB.  There are 3 single pin headers, but 4 positions to place them.  Place them into the three positions closest to the edge of the the PCB.
+Place each of these mated male/female headers into the PCB on the position marked "PT100 Amp", with the pins for the female headers placed into the PCB.  There are 3 single pin headers, but 4 positions to place them.  Place them into the three positions closest to the edge of the PCB.
 ![PT100 header placement on the PCB](/assets/images/pt100_pins_placed.jpg)
 
 Then, place the pt100 breakout board on the male side of the header pins and solder into place.

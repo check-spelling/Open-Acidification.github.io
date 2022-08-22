@@ -39,7 +39,7 @@ Disassemble the button pulling the red button cap from the button pin.  Then, un
 
 ![Reset button disassembled and ready to attach to the faceplate](/assets/images/reset_disassemble.jpg)
 
-Place the hex nut into the the hexagonal pocket in the faceplate above the "RESET" text.
+Place the hex nut into the hexagonal pocket in the faceplate above the "RESET" text.
 
 ![Reset button nut set into the hexagonal pocket](/assets/images/reset_nut.jpg)
 
