@@ -1,7 +1,46 @@
-https?:\S*
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
+
+# Google Docs (include <style ...> annotations)
+/docs\.google\.com/[a-z]+/(?:(?:d/(?:<[^>]*>)?)?)([0-9a-zA-Z_-]+)?(?:edit\?[-\w=#.]*|/\?[\w=&]*|)
 # ignore long runs of a single character:
 ([A-Za-z])\1{3,}
 # Any CLI args (-xzf -aef)
 \ -\w+\b
 # Hex colors (dummy group to not be treated as comment)
 (?:#)([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})
+# Automatically suggested patterns
+# hit-count: 2 file-count: 2
+# mailto urls
+mailto:[-a-zA-Z=;:/?%&0-9+@.]{3,}
+pHdata
+# Automatically suggested patterns
+# hit-count: 9 file-count: 2
+# Contributor
+\[[^\]]+\]\(https://github\.com/[^/\s"]+\)
+
+# hit-count: 6 file-count: 1
+# GitHub SHAs (markdown)
+(?:\[`?[0-9a-f]+`?\]\(https:/|)/(?:www\.|)github\.com(?:/[^/\s"]+){2,}(?:/[^/\s")]+)(?:[0-9a-f]+(?:[-0-9a-zA-Z/#.]*|)\b|)
+
+# hit-count: 4 file-count: 1
+# githubusercontent
+/[-a-z0-9]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+
+# hit-count: 1 file-count: 1
+# shields.io
+\bshields\.io/[-\w/%?=&.:+;,]*
+
+# hit-count: 1 file-count: 1
+# URL escaped characters
+\%[0-9A-F]{2}
+
+# facebook watch
+\bfb\.watch/[0-9A-Za-z]+
+
+# acceptable duplicates
+# ls directory listings
+[-bcdlpsw](?:[-r][-w][-sx]){3}\s+\d+\s+(\S+)\s+\g{-1}\s+\d+\s+
+# C types
+\s(long|LONG|Walla) \g{-1}\s
+# javadoc / .net
+(?:[\\@](?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s

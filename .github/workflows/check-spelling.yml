@@ -21,28 +21,41 @@ on:
 # Set the Job #
 ###############
 jobs:
-  build:
+  spelling:
     # Name the Job
     name: Spell checking
+    permissions:
+      contents: read
+    outputs:
+      followup: ${{ steps.spelling.outputs.followup }}
     # Set the agent to run on
     runs-on: ubuntu-latest
+    concurrency:
+      group: spelling-${{ github.ref }}
+      # note: If you use only_check_changed_files, you do not want cancel-in-progress
+      cancel-in-progress: true
     ##################
     # Load all steps #
     ##################
     steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
-      - name: Checkout Code
-        uses: actions/checkout@v2
+    - name: Check spelling
+      id: spelling
+      uses: check-spelling/check-spelling@v0.0.20
+      with:
+        checkout: true
+        post_comment: 0
 
-      #############################
-      # Run check spelling action #
-      #############################
-      - name: Check spelling
-        uses: check-spelling/check-spelling@v0.0.18
-        with:
-          bucket: .github/actions
-          project: spelling
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  comment:
+    name: Report
+    runs-on: ubuntu-latest
+    needs: spelling
+    permissions:
+      contents: write
+      pull-requests: write
+    if: failure() && needs.spelling.outputs.followup
+    steps:
+    - name: comment
+      uses: check-spelling/check-spelling@v0.0.20
+      with:
+        checkout: true
+        task: ${{ needs.spelling.outputs.followup }}
